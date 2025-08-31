@@ -23,7 +23,7 @@ jobs:
       - name: SonarCloud Scan
         uses: SonarSource/sonarcloud-github-action@v1
         with:
-          projectKey: TUO_PROJECT_KEY
-          organization: awesome-python
+          projectKey: awesome-python
+          organization: apetrazz-ops
           token: ${{ secrets.SONAR_TOKEN }}
 
